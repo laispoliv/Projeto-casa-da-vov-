@@ -60,27 +60,47 @@
       </div>
     </div>
 
-    <div class="formulario">
-      <h2>Fale Conosco</h2>
-
-      <p>Nome</p>
-      <input type="text" />
-
-      <p>E-mail</p>
-      <input type="text" />
-
-      <p>Tipo de solicitação</p>
-      <select name="funcao" id="role">
-        <option value="Reclamação">Reclamação</option>
-        <option value="Elogio">Elogio</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-      </select>
-
-      <p>Mensagem</p>
-      <textarea> </textarea>
-
-      <input type="submit" value="Enviar" />
+    <div class="faleconosco">
+      <h1>Fale Conosco</h1>
     </div>
+    
+    <section>
+    <form>
+      <div>
+        <label>Nome</label>
+        <input type="text" placeholder="Digite seu nome" name="nome" required />
+      </div>
+
+      <div>
+        <label>E-mail</label>
+        <input
+          type="text"
+          placeholder="Digite seu e-mail"
+          name="e-mail"
+          required
+        />
+      </div>
+
+      <div>
+        <label>Tipo de solicitação</label>
+
+        <select name="funcao" id="role">
+          <option value="Reclamação">Reclamação</option>
+          <option value="Elogio">Elogio</option>
+          <option value="Sugestão">Sugestão</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Mensagem</label>
+        <textarea rows="10" name="msg" required></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Enviar" />
+      </div>
+    </section>
+    </form>
   </body>
 </html>
