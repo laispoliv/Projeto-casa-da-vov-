@@ -1,3 +1,9 @@
+.headerTopo {
+  padding: 10px;
+  background-color: rgb(86, 160, 12);
+  text-align: center;
+}
+
 .redeSociais {
   width: 25%;
   float: right;
@@ -5,6 +11,15 @@
 }
 .icones {
   padding: 5px;
+}
+
+.carrousel {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.div id {
+  display: inline-block;
 }
 
 .faleconosco {
@@ -62,4 +77,30 @@ form select {
   margin-left: 10px;
   font-weight: bold;
   color: rgb(86, 160, 12);
+}
+
+.aInstituicao {
+  display: flex;
+  margin: 30px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.textoInstituicao {
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container-esquerda {
+  width: 379px;
+}
+
+.container-direita {
+  width: 379px;
+  padding-left: 90px;
 }
