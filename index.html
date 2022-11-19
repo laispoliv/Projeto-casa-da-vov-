@@ -28,26 +28,31 @@
       <img src="./img/imagemcarrousel.jpeg" />
     </div>
 
-    <div class="imagensTexto">
-      <img src="./img/imagemesquerda.jpeg" />
-      <p>Sabemos que para um idoso desenvolver ou manter a sua</p>
-      <p>qualidade de vida na terceira idade, ele precisa receber</p>
-      <p>cuidados especiais.Aqui na Casa da Vovó, além dos cuidados</p>
-      <p>diários, realizamos diversas atividades que contribuem para o</p>
-      <p>aprimoramento cognitivo, além de rigorosos acompanhamentos</p>
-      <p>médicos.</p>
-      <img src="./img/imagemdireita.jpeg" />
-      <p>
-        Na nossa casa de repouso temos: Acompanhamento por cuidadores de idosos;
-        Supervisão de enfermagem 24h; Acompanhamento nutricional; Rotina de
-        exercícios com supervisão e orientação de fisioterapeuta; Consultas
-        semanais com médico geriatra e muito mais.
-      </p>
+    <div class="container">
+      <div class="container-esquerda">
+        <img src="./img/imagemesquerda.jpeg" />
+        <p>
+          Sabemos que para um idoso desenvolver ou manter a sua qualidade de
+          vida na terceira idade, ele precisa receber cuidados especiais.Aqui na
+          Casa da Vovó, além dos cuidados diários, realizamos diversas
+          atividades que contribuem para o aprimoramento cognitivo, além de
+          rigorosos acompanhamentos médicos.
+        </p>
+      </div>
+      <div class="container-direita">
+        <img src="./img/imagemdireita.jpeg" />
+        <p>
+          Na nossa casa de repouso temos: Acompanhamento por cuidadores de
+          idosos; Supervisão de enfermagem 24h; Acompanhamento nutricional;
+          Rotina de exercícios com supervisão e orientação de fisioterapeuta;
+          Consultas semanais com médico geriatra e muito mais.
+        </p>
+      </div>
     </div>
 
     <div class="aInstituicao">
-      <img src="./img/imagemcentral.jpeg" />
-      <div class="aInstituicao">
+      <img src="./img/imagemcentral.jpeg" width="500px" />
+      <div class="textoInstituicao">
         <h2>A Instituição</h2>
         <h3>Cuidando de quem sempre cuidou de você</h3>
         <p>
@@ -63,44 +68,49 @@
     <div class="faleconosco">
       <h1>Fale Conosco</h1>
     </div>
-    
+
     <section>
-    <form>
-      <div>
-        <label>Nome</label>
-        <input type="text" placeholder="Digite seu nome" name="nome" required />
-      </div>
+      <form>
+        <div>
+          <label>Nome</label>
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+            name="nome"
+            required
+          />
+        </div>
 
-      <div>
-        <label>E-mail</label>
-        <input
-          type="text"
-          placeholder="Digite seu e-mail"
-          name="e-mail"
-          required
-        />
-      </div>
+        <div>
+          <label>E-mail</label>
+          <input
+            type="text"
+            placeholder="Digite seu e-mail"
+            name="e-mail"
+            required
+          />
+        </div>
 
-      <div>
-        <label>Tipo de solicitação</label>
+        <div>
+          <label>Tipo de solicitação</label>
 
-        <select name="funcao" id="role">
-          <option value="Reclamação">Reclamação</option>
-          <option value="Elogio">Elogio</option>
-          <option value="Sugestão">Sugestão</option>
-          <option value="audi">Audi</option>
-        </select>
-      </div>
+          <select name="funcao" id="role">
+            <option value="Reclamação">Reclamação</option>
+            <option value="Elogio">Elogio</option>
+            <option value="Sugestão">Sugestão</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
 
-      <div>
-        <label>Mensagem</label>
-        <textarea rows="10" name="msg" required></textarea>
-      </div>
+        <div>
+          <label>Mensagem</label>
+          <textarea rows="10" name="msg" required></textarea>
+        </div>
 
-      <div>
-        <input type="submit" value="Enviar" />
-      </div>
+        <div>
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
     </section>
-    </form>
   </body>
 </html>
