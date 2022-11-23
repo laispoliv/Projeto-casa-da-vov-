@@ -3,114 +3,105 @@
   <head>
     <link rel="stylesheet" type="text/css" href="./css/Stylesheet.css" />
     <title>Casa da Vovó</title>
-    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <meta charset="utf-8"/>
   </head>
   <body>
-    <div class="headerTopo">
-      <img src="./img/logocasadavovo.jpeg" style="width: 7%" />
+    <main class="conteudo">
+      <header>
+        <img
+          class="logo"
+          src="img/logocasadavovo.png"
+          alt="Logo Casa da Vovó"
+        />
+        <h1>Casa da Vovó</h1>
+      </header>
 
-      <ul class="redeSociais">
-        <a class="icones" href="">
-          <img src="./img/linkedinlogo.jpeg" />
-        </a>
-
-        <a class="icones" href="">
-          <img src="./img/facebooklogo.jpeg" />
-        </a>
-
-        <a class="icones" href="">
-          <img src="./img/instagranlogo.jpeg" />
-        </a>
-      </ul>
-    </div>
-
-    <div class="carrousel">
-      <img src="./img/imagemcarrousel.jpeg" />
-    </div>
-
-    <div class="container">
-      <div class="container-esquerda">
-        <img src="./img/imagemesquerda.jpeg" />
-        <p>
-          Sabemos que para um idoso desenvolver ou manter a sua qualidade de
-          vida na terceira idade, ele precisa receber cuidados especiais.Aqui na
-          Casa da Vovó, além dos cuidados diários, realizamos diversas
-          atividades que contribuem para o aprimoramento cognitivo, além de
-          rigorosos acompanhamentos médicos.
-        </p>
+      <div class="carrousel">
+        <img src="./img/imagemcarrousel.jpeg" alt="Idosos em frente a casa de repouso" />
       </div>
-      <div class="container-direita">
-        <img src="./img/imagemdireita.jpeg" />
-        <p>
-          Na nossa casa de repouso temos: Acompanhamento por cuidadores de
-          idosos; Supervisão de enfermagem 24h; Acompanhamento nutricional;
-          Rotina de exercícios com supervisão e orientação de fisioterapeuta;
-          Consultas semanais com médico geriatra e muito mais.
-        </p>
+
+      <div class="container">
+        <div class="container-esquerda">
+          <img src="./img/imagemesquerda.jpeg" alt="Idosos sorrindo" />
+          <p>
+            Sabemos que para um idoso desenvolver ou manter a sua qualidade de
+            vida na terceira idade, ele precisa receber cuidados especiais.Aqui
+            na Casa da Vovó, além dos cuidados diários, realizamos diversas
+            atividades que contribuem para o aprimoramento cognitivo, além de
+            rigorosos acompanhamentos médicos.
+          </p>
+        </div>
+        <div class="container-direita">
+          <img src="./img/imagemdireita.jpeg" alt="Profissional da saude em atendimento"/>
+          <p>
+            Na nossa casa de repouso temos: Acompanhamento por cuidadores de
+            idosos; Supervisão de enfermagem 24h; Acompanhamento nutricional;
+            Rotina de exercícios com supervisão e orientação de fisioterapeuta;
+            Consultas semanais com médico geriatra e muito mais.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="aInstituicao">
-      <img src="./img/imagemcentral.jpeg" width="500px" />
-      <div class="textoInstituicao">
-        <h2>A Instituição</h2>
-        <h3>Cuidando de quem sempre cuidou de você</h3>
-        <p>
-          Criada em 2020, a Casa da Vovó é um Residencial Sênior pensado na
-          atualidade, surgiu em meio a pandemia visando a necessidade de muitas
-          famílias em proporcionar bem-estar, segurança e conforto. Parte da
-          nossa equipe é formada por multiprofissionais da saude, todos
-          preparados para cuidar do nosso público especial.
-        </p>
+      <div class="aInstituicao">
+        <img src="./img/imagemcentral.png" alt="A Instituição" />
+        <div class="textoInstituicao">
+          <h2>A Instituição</h2>
+          <h3>Cuidando de quem sempre cuidou de você</h3>
+          <p>
+            Criada em 2020, a Casa da Vovó é um Residencial Sênior pensado na
+            atualidade, surgiu em meio a pandemia visando a necessidade de
+            muitas famílias em proporcionar bem-estar, segurança e conforto.
+            Parte da nossa equipe é formada por multiprofissionais da saude,
+            todos preparados para cuidar do nosso público especial.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="faleconosco">
-      <h1>Fale Conosco</h1>
-    </div>
-
-    <section>
-      <form>
-        <div>
-          <label>Nome</label>
-          <input
-            type="text"
-            placeholder="Digite seu nome"
-            name="nome"
-            required
-          />
-        </div>
-
-        <div>
-          <label>E-mail</label>
-          <input
-            type="text"
-            placeholder="Digite seu e-mail"
-            name="e-mail"
-            required
-          />
-        </div>
-
-        <div>
-          <label>Tipo de solicitação</label>
-
-          <select name="funcao" id="role">
-            <option value="Reclamação">Reclamação</option>
-            <option value="Elogio">Elogio</option>
-            <option value="Sugestão">Sugestão</option>
-            <option value="audi">Audi</option>
-          </select>
-        </div>
-
-        <div>
-          <label>Mensagem</label>
-          <textarea rows="10" name="msg" required></textarea>
-        </div>
-
-        <div>
-          <input type="submit" value="Enviar" />
-        </div>
-      </form>
-    </section>
+      <div class="fale-conosco">
+        <h2>Fale conosco</h2>
+        <form action="pagina-sucesso.html" class="formulario">
+          <div>
+            <label for="nome"> Nome: </label>
+            <input
+              type="text"
+              class="input-form"
+              id="nome"
+              placeholder="Digite seu nome"
+            />
+          </div>
+          <div>
+            <label for="email"> E-mail: </label>
+            <input
+              type="text"
+              class="input-form"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+          <div>
+            <label for="mensagem"> Mensagem: </label>
+            <textarea
+              class="input-form"
+              id="mensagem"
+              rows="5"
+              placeholder="Digite sua mensagem"
+            ></textarea>
+          </div>
+          <div class="botao">
+            <button
+              class="formulario-botao formulario-botao-responsivo"
+              id="formulario-botao"
+              type="submit"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
